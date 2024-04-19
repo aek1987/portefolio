@@ -39,11 +39,16 @@ body{
 .profile{
     width: 100%;
     border-bottom: 1px solid #002333;
+    font-family: 'Tangerine', serif;
+  font-size: 14px;
+  text-shadow: 2px 2px 2px #aaa;
+  text-align: center;
 }
 
 .image{
     width:100%;
     text-align: center;
+    align-content: center;
 }
 .profile img{
     width: 100%;
@@ -63,7 +68,7 @@ body{
 
 .career{
     font-size: 1.2rem;
-    color: #94D9EA;
+    color: #050410;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -81,18 +86,22 @@ body{
 .contact-info ul{
     padding-top: 2rem;
     text-align: center;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .contact-info ul li{
     padding: .4rem 0;
     display: flex;
     align-items: center;
-    color: #718096;
+    color: #040608;
+    
+
 }
 .contact-info ul li i{
-    padding-right: 1rem;
+    padding-right: 2rem;
     font-size: 1.2rem;
-    color: #2D9CDB;
+    color: #f3f6f8;
 }
 
 .skills-section ul{
@@ -242,10 +251,14 @@ body{
   text-shadow: 2px 2px 2px #aaa;
   text-align: center;
 }
+#profile_text{
+    font-family: 'Tangerine', serif;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px #e60909;
+    text-align: center;
+  }
 
-.titre_cv{
-    
-}
+
 /*Media Querries*/
 @media screen and (max-width:823px){
     .right-title::after{

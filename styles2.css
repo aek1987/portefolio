@@ -95,13 +95,16 @@
     line-height: 2.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
+    
   }
   .navbar li a, .navbar .navbar-brand {
     color: #940d0d !important;
+    font-family: Verdana !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #13100f !important;
     background-color: #d6d5e1 !important;
+    font-family: Verdana !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
