@@ -303,3 +303,45 @@ body{
 }
 
 
+/* exepience stylee */
+
+
+#Experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre horizontalement */
+    padding: 20px; /* Ajoute du padding autour de la section */
+    margin: 0 auto; /* Centre la section dans son conteneur */
+    max-width: 800px; /* Limite la largeur de la section */
+    background-color: #f8f9fa; /* Fond de section optionnel */
+    border-radius: 5px; /* Coins arrondis optionnels */
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+  .experience-item h4 {
+    color: #007bff; /* Couleur du titre */
+  }
+  
+  .experience-item h5 {
+    color: #6c757d; /* Couleur du sous-titre */
+  }
+  
+  .experience-item p {
+    font-style: italic; /* Style italique pour les dates */
+  }
+  
+
+/* exepience le button */
+
+
+  .button-group {
+    display: flex;
+    justify-content: center; /* Centre les boutons horizontalement */
+    margin-top: 20px; /* Ajoute un espacement au-dessus des boutons */
+    margin-left: 40px; /* Ajoute un espacement au-dessus des boutons */
+    margin-right: 40px; /* Ajoute un espacement au-dessus des boutons */
+}
+
+
