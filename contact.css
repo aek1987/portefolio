@@ -1,0 +1,66 @@
+/* Overall card style */
+.contact-info card{
+    padding: 20px;
+    background-color: #ffffff; /* White background for a clean look */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 350px; /* Limiting the width for consistency */
+    margin: 20px auto; /* Center the card */
+    font-family: 'Arial', sans-serif; /* Professional, clean font */
+    width: auto;
+}
+
+/* Title style */
+.contact-info .main-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #fafffe; /* Dark grey text for readability */
+    text-align: center; /* Center the title */
+}
+
+/* List style */
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    margin: 12px 0; /* Space between items */
+}
+
+/* Icon style */
+.contact-info .icon {
+    margin-right: 12px; /* Spacing between icon and text */
+    color: #007bff; /* Consistent blue color for icons */
+    font-size: 1.2rem;
+}
+
+/* Contact text styling */
+.contact-info .contact-text {
+    font-size: 2rem;
+    color: #f7f1f1; /* Slightly lighter grey for text */
+}
+
+/* Links styling */
+.contact-info a {
+    color: #f4f7fa; /* Consistent blue color for links */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    .contact-info {
+        padding: 15px; /* Reduce padding on small screens */
+    }
+
+    .contact-info .main-title {
+        font-size: 1.4rem; /* Slightly smaller title */
+    }
+}
