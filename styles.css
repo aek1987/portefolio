@@ -87,39 +87,7 @@ body{
     padding: .6rem 0;
 }
 
-.progress-bar{
-    width: 100%;
-    height: .4rem;
-    background-color: #0a18e75b;
-    position: relative;
-    border-radius: 12px;
-    transition: width 0.5s ease-in-out;
-}
-.progress{
-    height: 100%;
-    position: absolute;
-    left: 0;
-    background-color: #db2d2d;
-    border-radius: 12px;
-}
-.js-progress{
-    width: 70%;
-}
-.ps-progress{
-    width: 90%;
-}
-.j-progress{
-    width: 85%;
-}
-.c-progress{
-    width: 40%;
-}
-.n-progress{
-    width: 63%;
-}
-.w-progress{
-    width: 78%;
-}
+
 
 
 .skill-title{
