@@ -71,24 +71,29 @@
     color: #eaecec; /* Dark grey text for readability */
     text-align: center; /* Center the title */
 }
-.skills-section .progress {
-    background-color: #76c7c0;
-    height: 100%;
-    transition: width 0.3s ease;
-}
-.progress-bar {
-    background-color: #e0e0e0; /* Couleur de fond */
-    border-radius: 5px;
-    overflow: hidden;
-    height: 20px; /* Hauteur de la barre */
-    margin-bottom: 10px; /* Espacement entre les barres */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.progress {
-    background-color: #76c7c0; /* Couleur de la progression */
-    height: 100%; /* Pleine hauteur de la barre */
-    width: 0; /* Commence à 0 et est défini via le style inline */
-    transition: width 0.3s ease; /* Animation de la progression */
+.skills-list li {
+    margin: 10px 0;
+    font-size: 1.2rem; /* Adjust font size for readability */
+    display: flex;
+    align-items: center;
+}
+
+.skill-title {
+    margin: 0;
+    color: #333; /* Neutral color for professionalism */
+    font-weight: 600;
+}
+
+.icon {
+    margin-right: 10px; /* Spacing between the icon and text */
+    font-size: 1.5rem; /* Slightly larger than text for emphasis */
+    color: #0073e6; /* Subtle blue for consistency */
 }
 
 
