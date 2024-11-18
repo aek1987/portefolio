@@ -16,7 +16,7 @@
     font-weight: 600;
     margin-bottom: 25px;
     color: #eaecec; /* Dark grey text for readability */
-    text-align: center; /* Center the title */
+    text-align: left; /* Center the title */
 }
 
 /* List style */
@@ -58,18 +58,17 @@
 .skills-section .main-title {
     font-size: 1.9rem;
     font-weight: 600;
-    margin-bottom: 25px;
+    text-align: left;
     color: #eaecec; /* Dark grey text for readability */
-    text-align: center; /* Center the title */
+     /* Center the title */
 }
 
 
 .skills-section .skill-title {
-    font-size: 1.7rem;
-    font-weight: 600;
-    margin-bottom: 25px;
+    font-size: 1.6rem;
+    font-weight: 600;   
     color: #eaecec; /* Dark grey text for readability */
-    text-align: center; /* Center the title */
+    text-align: left; /* Center the title */
 }
 .skills-list {
     list-style: none;
@@ -78,8 +77,7 @@
 }
 
 .skills-list li {
-    margin: 10px 0;
-    font-size: 1.2rem; /* Adjust font size for readability */
+      font-size: 1.2rem; /* Adjust font size for readability */
     display: flex;
     align-items: center;
 }
@@ -100,11 +98,12 @@
 /* Mobile responsiveness */
 @media (max-width: 480px) {
     .contact-info {
-        padding: 15px; /* Reduce padding on small screens */
+        padding: 10px; /* Reduce padding on small screens */
     }
 
     .contact-info .main-title {
         font-size: 1.4rem; /* Slightly smaller title */
         color: #f4f7fa; 
+       align-self: center; 
     }
 }
